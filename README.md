@@ -28,12 +28,12 @@ The first and most crucial component is the Mechanic, which defines the action. 
 
 Each mechanic has arguments. For the mechanic above, `message` is an argument. Every mechanic  can use the following arguments:
 
-| Argument         | Description                                      | Default Value                                 |
-| ---------------- | ------------------------------------------------ | --------------------------------------------- |
-| `repeatInterval` | The number of ticks between repeating mechanics  | $$1$$                                         |
-| `repeatAmount`   | How many times to repeat the mechanic            | $$1$$                                         |
-| `delay`          | The number of ticks before the mechanic executes | $$0$$ (instant)                               |
-| `chance`         | The random chance the mechanic executes          | <p><span class="math">100\%</span></p><p></p> |
+| Argument          | Description                                      | Default Value                                 |
+| ----------------- | ------------------------------------------------ | --------------------------------------------- |
+| `repeatInterval`  | The number of ticks between repeating mechanics  | $$1$$                                         |
+| `repeatAmount`    | How many times to repeat the mechanic            | $$1$$                                         |
+| `delayBeforePlay` | The number of ticks before the mechanic executes | $$0$$ (instant)                               |
+| `chance`          | The random chance the mechanic executes          | <p><span class="math">100\%</span></p><p></p> |
 
 ```yaml
   - "Message{message=This is a Mechanic, repeatInterval=20, repeatAmount=5, delay=200, chance=50%}"
@@ -54,7 +54,7 @@ Targeters always start with an `@` character. A Targeter is not required, since 
 
 Some targets use arguments. Every Targeter can use the following arguments:
 
-<table><thead><tr><th width="129.33333333333331">Argument</th><th width="450">Description</th><th>Default Value</th></tr></thead><tbody><tr><td><code>offset</code></td><td>Offset the XYZ coordinates. You can use relative directions using <code>~</code>. See <a data-mention href="http://127.0.0.1:5000/s/IIUkVnlH40vVBzLhWWQ8/vector">Vector</a> for more information.</td><td><span class="math">0\ 0\ 0 </span></td></tr><tr><td><code>eye</code></td><td>Target the entity's eye location instead of the location of its feet. </td><td>false</td></tr></tbody></table>
+<table><thead><tr><th width="129.33333333333331">Argument</th><th width="450">Description</th><th>Default Value</th></tr></thead><tbody><tr><td><code>offset</code></td><td>Offset the XYZ coordinates. You can use relative directions using <code>~</code>. See <a data-mention href="https://app.gitbook.com/s/IIUkVnlH40vVBzLhWWQ8/vector">Vector</a> for more information.</td><td><span class="math">0\ 0\ 0 </span></td></tr><tr><td><code>eye</code></td><td>Target the entity's eye location instead of the location of its feet. </td><td>false</td></tr></tbody></table>
 
 ```yaml
   - "Sound{sound=ENTITY_GENERIC_EXPLODE} @Source{eye=true, offset=~0 0 1}"
