@@ -2,8 +2,9 @@
 
 The `InCone` condition lets you check if entities are in a cone.
 
-| `angle`     | The angle, in degrees, of the cone.                                                                                               | 0                  |
+| Argument    | Description                                                                                                                       | Default Value      |
 | ----------- | --------------------------------------------------------------------------------------------------------------------------------- | ------------------ |
+| `angle`     | The angle, in degrees, of the cone.                                                                                               | 0                  |
 | `direction` | The direction vector of the cone. Uses the [Vector](https://app.gitbook.com/s/IIUkVnlH40vVBzLhWWQ8/vector "mention") serializer.  | `~0 0 1` (forward) |
 
 <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>A cone diagram</p></figcaption></figure>
