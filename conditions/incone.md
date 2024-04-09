@@ -15,7 +15,7 @@ The `InCone` argument defines an _infinite cone_. This means, that when you want
 {% endhint %}
 
 {% tabs %}
-{% tab title="First Tab" %}
+{% tab title="Example 1" %}
 This example creates an `RPG_7` [back blast](https://youtu.be/OZaNtK1l8cI?t=308) effect in `Shoot.Mechanics`:
 
 ```yaml
@@ -23,9 +23,5 @@ Mechanics:
   - "CustomSound{sound=shoot.rpg7.loud, volume=6, noise=0.1}"
   - "Damage{damage=10.0} @World{} ?Range{max=4} ?InCone{direction=~0 0 -1, angle=28}"
 ```
-{% endtab %}
-
-{% tab title="Second Tab" %}
-
 {% endtab %}
 {% endtabs %}
