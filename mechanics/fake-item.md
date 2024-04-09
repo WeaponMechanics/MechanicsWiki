@@ -11,12 +11,12 @@ The fake item mechanic drops a "fake item" on the ground. Fake items are useful,
 
 The Fake Item mechanic can be used for empty shell ejection, blood effects, or any other special effect that benefits from a dropped item.&#x20;
 
-| Argument          | Description                                                                                                     | Default Value                              |
-| ----------------- | --------------------------------------------------------------------------------------------------------------- | ------------------------------------------ |
-| `type`            | The [Material](http://127.0.0.1:5000/s/IIUkVnlH40vVBzLhWWQ8/references#material "mention") to use as the item.  | <mark style="color:red;">\*</mark>Required |
-| `customModelData` | The custom model data used to change the item's model.                                                          | None                                       |
-| `time`            | The time, in ticks, before the item disappears.                                                                 | 100                                        |
-| `velocity`        | The velocity to spawn the dropped item with.                                                                    | 0 0 0                                      |
+| Argument          | Description                                                                                                       | Default Value                              |
+| ----------------- | ----------------------------------------------------------------------------------------------------------------- | ------------------------------------------ |
+| `type`            | The [Material](https://app.gitbook.com/s/IIUkVnlH40vVBzLhWWQ8/references#material "mention") to use as the item.  | <mark style="color:red;">\*</mark>Required |
+| `customModelData` | The custom model data used to change the item's model.                                                            | None                                       |
+| `time`            | The time, in ticks, before the item disappears.                                                                   | 100                                        |
+| `velocity`        | The velocity to spawn the dropped item with.                                                                      | 0 0 0                                      |
 
 {% hint style="warning" %}
 If you set the `time` argument too high (>80), players may get confused as to why they cannot pick up items. For example, if you spawn blood items after killing a mob, players may be unable to find the natural mob drops until the fake items despawn.

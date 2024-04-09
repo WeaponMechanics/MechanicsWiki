@@ -21,7 +21,7 @@ Mechanics:
 
 Spawns a 2x3 cube outline of flame particles.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Example 1 in action</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Example 1 in action</p></figcaption></figure>
 {% endtab %}
 
 {% tab title="Second Tab" %}

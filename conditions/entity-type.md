@@ -6,7 +6,7 @@ The entity type condition checks which mob an entity is (a player? a zombie? a p
 | -------- | ---------------------- | ------------------------------------------ |
 | `entity` | Which entity to target | <mark style="color:red;">\*</mark>Required |
 
-Use the [entities](http://127.0.0.1:5000/s/IIUkVnlH40vVBzLhWWQ8/references#entities "mention") reference for a full entity list.
+Use the [entities](https://app.gitbook.com/s/IIUkVnlH40vVBzLhWWQ8/references#entities "mention") reference for a full entity list.
 
 {% tabs %}
 {% tab title="Example 1" %}

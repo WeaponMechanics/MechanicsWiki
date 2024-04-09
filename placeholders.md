@@ -32,4 +32,4 @@ Not every mechanic has a target. For example, WeaponMechanics `Shoot.Mechanics` 
 
 Some plugins may add placeholders for you to use.
 
-* [Placeholders](http://127.0.0.1:5000/s/9hOjsLnIiB5Xm8MOXgWU/placeholders "mention") from WeaponMechanicsPlus
+* [Placeholders](https://app.gitbook.com/s/9hOjsLnIiB5Xm8MOXgWU/placeholders "mention") from WeaponMechanicsPlus

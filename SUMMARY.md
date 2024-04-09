@@ -4,7 +4,7 @@
 * [Examples](examples.md)
 * [Placeholders](placeholders.md)
 
-## ⚙ Mechanics
+## ⚙️ Mechanics
 
 * [Action Bar](mechanics/action-bar.md)
 * [Boss Bar](mechanics/boss-bar.md)
@@ -44,6 +44,7 @@
 * [Entity Type](conditions/entity-type.md)
 * [Gliding](conditions/gliding.md)
 * [Has Permission](conditions/has-permission.md)
+* [InCone](conditions/incone.md)
 * [Light Level](conditions/light-level.md)
 * [Material Category](conditions/material-category.md)
 * [On Ground](conditions/on-ground.md)

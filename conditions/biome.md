@@ -6,7 +6,7 @@ The biome condition checks whether the target entity/location is in a specific b
 | -------- | --------------------------- | ------------------------------------------ |
 | `biome`  | Which biome should we be in | <mark style="color:red;">\*</mark>Required |
 
-Use the [Biome](http://127.0.0.1:5000/s/IIUkVnlH40vVBzLhWWQ8/references#biome "mention") reference for a full biome list.
+Use the [Biome](https://app.gitbook.com/s/IIUkVnlH40vVBzLhWWQ8/references#biome "mention") reference for a full biome list.
 
 Looking for custom biomes from [BiomeManager](https://www.spigotmc.org/resources/biomemanager-custom-biome-colors-and-effects-1-19-4-1-20-1.106419/)? Use [custom-biome.md](custom-biome.md "mention").
 

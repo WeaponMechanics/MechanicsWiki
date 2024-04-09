@@ -8,7 +8,7 @@ Sends a message in chat.
 
 We use[ MiniMessage](https://docs.advntr.dev/minimessage/format.html) to parse messages, a text format that allows colors, links, hoverables, and many other features. MiniMessage also provides an [editor](https://webui.advntr.dev/) for you to build your messages! Check out the default colors below:
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>MiniMessage Default Colors Chart</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>MiniMessage Default Colors Chart</p></figcaption></figure>
 
 {% tabs %}
 {% tab title="Example 1" %}
