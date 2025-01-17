@@ -6,9 +6,10 @@ Have you purchased [WeaponMechanicsCosmetics](https://www.spigotmc.org/resources
 
 The flinch mechanic causes the targeted entity to receive "fake damage," which makes them flash red and shakes their screen.
 
-| Argument         | Description                                                                                              | Default Value |
-| ---------------- | -------------------------------------------------------------------------------------------------------- | ------------- |
-| `showToEveryone` | Use `false` to only show the effect to the targeted entity. `true` will show the red flash to everyone.  | false         |
+| Argument         | Description                                                                                                                                  | Default Value |
+| ---------------- | -------------------------------------------------------------------------------------------------------------------------------------------- | ------------- |
+| `showToEveryone` | Use `false` to only show the effect to the targeted entity. `true` will show the red flash to everyone.                                      | false         |
+| `angle`          | The angle where the fake damage is coming from, where 0 is in front of the player, 90 is to the right, 180 is behind, and 270 is to the left | 0.0           |
 
 {% hint style="danger" %}
 If you are using a Minecraft server older then 1.19.4, `showToEveryone` will always be true since Spigot added the option in 1.19.4.&#x20;
