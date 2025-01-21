@@ -11,6 +11,7 @@
 * [Command](mechanics/command.md)
 * [Custom Sound](mechanics/custom-sound.md)
 * [Damage](mechanics/damage.md)
+* [Drop Item](mechanics/drop-item.md)
 * [Fake Item](mechanics/fake-item.md)
 * [Firework](mechanics/firework.md)
 * [Flinch](mechanics/flinch.md)
